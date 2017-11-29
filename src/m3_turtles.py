@@ -14,7 +14,7 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 """
 ########################################################################
 #
-# Done: 1.
+# DONE: 1.
 #  (Yes, that means for YOU to DO things per these instructions:)
 #
 # On Line 13 above, replace  PUT_YOUR_OWN_NAME_HERE  with your OWN name.
@@ -29,7 +29,7 @@ import rosegraphics as rg
 
 ########################################################################
 #
-# TODO: 2.
+# DONE: 2.
 #   Allow this file to use the rosegraphics.py file by marking the src
 #   directory as a "Sources Root".  Do that by right clicking on the src folder,
 #   then selector  Mark Directory As --> Sources Root
@@ -73,11 +73,13 @@ matt.speed = 10  # Faster
 matt.backward(50)
 matt.left(90)
 matt.forward(50)
-
+matt.left(85)
+matt.backward(60)
+matt.right(90)
 
 ########################################################################
 #
-# TODO: 3.
+# DONE: 3.
 #   Add a few more line of your own code above to make one of the
 #   existing Turtles move some more and/or have different
 #   characteristics.
@@ -89,9 +91,10 @@ matt.forward(50)
 #
 ########################################################################
 
+
 ########################################################################
 #
-# TODO: 4.
+# DONE: 4.
 #   The code above  CONSTRUCTS  two SimpleTurtle objects and gives those objects NAMES:
 #       dave    matt
 #
@@ -110,9 +113,17 @@ matt.forward(50)
 #
 ########################################################################
 
+garrett = rg.SimpleTurtle('turtle')
+garrett.pen= rg.Pen('green', 20)
+garrett.speed = 50
+garrett.forward(100)
+garrett.left(100)
+garrett.backward(100)
+garrett.right(100)
+
 ########################################################################
 #
-# TODO: 5.
+# DONE: 5.
 #   Run one more time to be sure that all is still OK.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #
