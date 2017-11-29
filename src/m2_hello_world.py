@@ -51,7 +51,7 @@ print('Hello, World')
 
 ########################################################################
 #
-# TODO: 3.
+# TO DO: 3.
 #   Add another   print   statement below.
 #   It should print any string that you want (but keep it G-rated!)
 #   Test your code by re-running this module using either the right click
@@ -60,9 +60,10 @@ print('Hello, World')
 #
 ########################################################################
 
+print('Hello World Again!')
 ########################################################################
 #
-# TODO: 4.
+# TO DO: 4.
 #   Add yet another   print   statement.
 #   This one should print the *product* of 3,607 and 34,227.
 #   Let the computer do the arithmetic for you (no calculators!).
@@ -74,6 +75,7 @@ print('Hello, World')
 #
 ########################################################################
 
+print(3607*34227)
 ########################################################################
 #
 # TODO: 5.
